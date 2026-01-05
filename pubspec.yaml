@@ -1,0 +1,55 @@
+name: dart_lab1
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.5
+  url_launcher: ^6.3.1
+  http: ^1.4.0
+  json_annotation: ^4.9.0
+  intl: ^0.20.2
+  connectivity_plus: ^5.0.1
+  rss_dart: ^1.0.13
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.3.9
+  build_runner: ^2.4.15
+  json_serializable: ^6.9.5
+
+flutter_native_splash:
+  color: "#3929C7"
+  image: assets/splash.jpg
+  android: true
+  ios: true
+  web: true
+
+l10n:
+  arb-dir: lib/l10n
+  template-arb-file: locale_en.arb
+  output-localization-file: app_localizations.dart
+  output-dir: lib/l10n/generated
+  preferred-supported-locales: ["en", "ru", "es"]
+  synthetic-package: false
+
+flutter:
+  uses-material-design: true
+  
+  generate: true
+  
+  assets:
+    - assets/icons/
+    - assets/fonts/
+    - assets/splash.jpg

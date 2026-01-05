@@ -1,0 +1,231 @@
+{
+  "appTitle": "Helper",
+  "login": "Login",
+  "logout": "Logout",
+  "currencyRate": "Exchange Rate",
+  "news": "News",
+  "profile": "Profile",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System",
+  "search": "Search",
+  "searchHint": "Enter query",
+  "loading": "Loading",
+  "error": "Error",
+  "tryAgain": "Try again",
+  "settings": "Settings",
+  "language": "Language",
+  "russian": "Russian",
+  "english": "English",
+  "spanish": "Spanish",
+  "errorPage": "Error",
+  "pageNotFound": "Page not found",
+  "pageNotExist": "Page {pageName} does not exist",
+  "goToHome": "Go to home",
+  "themeSelection": "Color theme selection",
+  "languageSelection": "App language selection",
+  "notifications": "Notifications",
+  "notificationsSettings": "Notification settings",
+  "aboutApp": "About app",
+  "close": "Close",
+  "aboutAppVersion": "Version 1.0.0\n\nCurrency tracking application",
+  "themeSelected": "Theme selected: {theme}",
+  "languageSelected": "Language selected: {language}",
+  "notificationsSaved": "Notification settings saved",
+  "settingsSaved": "Settings saved successfully!",
+  "userLoggedOut": "User logged out of settings",
+  "appearance": "Appearance",
+  "data": "Data",
+  "useLocalData": "Use local data",
+  "loadFromCache": "Load data from cache on startup",
+  "clearCache": "Clear cache",
+  "deleteAllData": "Delete all saved data",
+  "dialog": "Dialog",
+  "exampleDialog": "Example dialog from profile",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "edit": "Edit",
+  "delete": "Delete",
+  "clearCacheQuestion": "Clear cache?",
+  "cacheWillBeDeleted": "All saved data will be deleted. This action cannot be undone.",
+  "clear": "Clear",
+  "cacheCleared": "Cache successfully cleared",
+  "cacheError": "Error clearing cache: {error}",
+  "confirmLogout": "Are you sure you want to logout?",
+  "result": "Result: {result}",
+  "selected": "Selected: {selected}",
+  "cbrRates": "Central Bank Exchange Rates",
+  "actualRates": "Current exchange rates and financial news",
+  "loginToApp": "Login to app",
+  "continueWithoutLogin": "Continue without login",
+  "save": "Save",
+  "name": "Name",
+  "email": "Email",
+  "id": "ID",
+  "appTheme": "App theme",
+  "guest": "Guest",
+  "exchangeRates": "Exchange Rates",
+  "currencies": "Currencies",
+  "currenciesTab": "Currencies",
+  "newsTab": "News",
+  "portfolio": "Portfolio",
+  "portfolioTab": "Portfolio",
+  "analytics": "Analytics",
+  "analyticsTab": "Analytics",
+  "profileUpdated": "Profile updated: {userName}",
+  "dateFormat": "MM/dd/yyyy",
+  "timeFormat": "HH:mm",
+  "dateTimeFormat": "MM/dd/yyyy HH:mm",
+  "newsDateTimeFormat": "EEE HH:mm MM/dd/yy",
+  "appName": "Central Bank Exchange Rates",
+  "appThemeTitle": "App Theme",
+  "lightTheme": "Light",
+  "darkTheme": "Dark",
+  "systemTheme": "System",
+  "noInternet": "No internet connection",
+  "usingSavedData": "Using saved data",
+  "retry": "Retry",
+  "loadingFromLocal": "Loading from local storage",
+  "loadingExchangeRates": "Loading exchange rates",
+  "searchByNameOrCode": "Search by name or code",
+  "usingLocalData": "Using local data",
+  "nothingFound": "Nothing found",
+  "tryDifferentQuery": "Try a different query",
+  "refreshData": "Refresh data",
+  "errorOccurred": "An error occurred",
+  "dbSaveError": "Error saving to database: {error}",
+  "nominal": "Nominal",
+  "nominalCount": "Nominal: {value}",
+  "rubleSymbol": "₽",
+  "increase": "increase",
+  "decrease": "decrease",
+  "unchanged": "unchanged",
+  "changeSymbol": "{change}",
+  "forNominal": "for {nominal} {units}",
+  "rateChange": "Rate Change",
+  "currentRate": "Current Rate",
+  "previousRate": "Previous Rate",
+  "change": "Change",
+  "changePercent": "Change in %",
+  "information": "Information",
+  "currencyCode": "Currency Code",
+  "analyticsReports": "Analytical Reports",
+  "analyticsDescription": "This section presents graphs and analytics\non exchange rates and your investments",
+  "analyticsTrends": "Trends",
+  "analyticsTrendsDescription": "Trend analysis",
+  "analyticsForecasts": "Forecasts",
+  "analyticsForecastsDescription": "Exchange rate forecasts",
+  "analyticsReportsDescription": "Detailed reports",
+  "analyticsComparison": "Comparison",
+  "analyticsComparisonDescription": "Currency comparison",
+  "analyticsWeeklyStats": "Weekly statistics",
+  "analyticsTopGainer": "Top gainer",
+  "analyticsTopGainerValue": "USD +2.1%",
+  "analyticsTopLoser": "Top loser",
+  "analyticsTopLoserValue": "EUR -1.3%",
+  "analyticsVolatility": "Volatility",
+  "analyticsVolatilityValue": "Average",
+  "analyticsSaveButton": "Save and exit",
+  "analyticsSaveMessage": "Analysis saved",
+  "portfolioTitle": "Your currency portfolio",
+  "portfolioDescription": "This section will display information\nabout your currency assets and investments",
+  "portfolioBackButton": "Go back",
+  "portfolioViewedMessage": "Portfolio viewed",
+  "portfolioMonthlyReturn": "Monthly return:",
+  "portfolioMonthlyReturnValue": "+5.2%",
+  "portfolioTotalValue": "Total value:",
+  "portfolioTotalValueAmount": "125,430 ₽",
+  "symbol": "Symbol",
+  "unit": "unit",
+  "unitsFew": "units",
+  "unitsMany": "units",
+  "units": "{count, plural, =1{unit} other{units}}",
+  "unitsWithCount": "{count} {count, plural, =1{unit} other{units}}",
+  "nominalWithUnits": "{count, plural, =1{# unit} other{# units}}",
+  "currencyUnits": "{count, plural, =1{# unit} other{# units}} of {currency}",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "@pageNotExist": {
+    "placeholders": {
+      "pageName": {}
+    }
+  },
+  "@themeSelected": {
+    "placeholders": {
+      "theme": {}
+    }
+  },
+  "@languageSelected": {
+    "placeholders": {
+      "language": {}
+    }
+  },
+  "@cacheError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@result": {
+    "placeholders": {
+      "result": {}
+    }
+  },
+  "@selected": {
+    "placeholders": {
+      "selected": {}
+    }
+  },
+  "@profileUpdated": {
+    "placeholders": {
+      "userName": {}
+    }
+  },
+  "@dbSaveError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@nominalCount": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "@changeSymbol": {
+    "placeholders": {
+      "change": {}
+    }
+  },
+  "@forNominal": {
+    "placeholders": {
+      "nominal": {},
+      "units": {}
+    }
+  },
+  "@units": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Plural form for units"
+  },
+  "@unitsWithCount": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Count with units"
+  },
+  "@nominalWithUnits": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Nominal value with plural units"
+  },
+  "@currencyUnits": {
+    "placeholders": {
+      "count": {},
+      "currency": {}
+    },
+    "description": "Currency units with count"
+  }
+}

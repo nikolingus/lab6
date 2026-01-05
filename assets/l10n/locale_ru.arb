@@ -1,0 +1,231 @@
+{
+  "appTitle": "Помогатор",
+  "login": "Войти",
+  "logout": "Выйти",
+  "currencyRate": "Курс Валют",
+  "news": "Новости",
+  "profile": "Профиль",
+  "theme": "Тема",
+  "light": "Светлая",
+  "dark": "Тёмная",
+  "system": "Системная",
+  "search": "Поиск",
+  "searchHint": "Введите запрос",
+  "loading": "Загрузка",
+  "error": "Ошибка",
+  "tryAgain": "Попробовать снова",
+  "settings": "Настройки",
+  "language": "Язык",
+  "russian": "Русский",
+  "english": "Английский",
+  "spanish": "Испанский",
+  "errorPage": "Ошибка",
+  "pageNotFound": "Страница не найдена",
+  "pageNotExist": "Страница {pageName} не существует",
+  "goToHome": "На главную",
+  "themeSelection": "Выбор цветовой темы",
+  "languageSelection": "Выбор языка приложения",
+  "notifications": "Уведомления",
+  "notificationsSettings": "Настройка уведомлений",
+  "aboutApp": "О приложении",
+  "close": "Закрыть",
+  "aboutAppVersion": "Версия 1.0.0\n\nПриложение для отслеживания курсов валют",
+  "themeSelected": "Выбрана тема: {theme}",
+  "languageSelected": "Выбран язык: {language}",
+  "notificationsSaved": "Настройки уведомлений сохранены",
+  "settingsSaved": "Настройки сохранены успешно!",
+  "userLoggedOut": "Пользователь вышел из настроек",
+  "appearance": "Внешний вид",
+  "data": "Данные",
+  "useLocalData": "Использовать локальные данные",
+  "loadFromCache": "Загружать данные из кэша при запуске",
+  "clearCache": "Очистить кэш",
+  "deleteAllData": "Удалить все сохраненные данные",
+  "dialog": "Диалог",
+  "exampleDialog": "Пример диалога из профиля",
+  "cancel": "Отмена",
+  "ok": "OK",
+  "edit": "Редактировать",
+  "delete": "Удалить",
+  "clearCacheQuestion": "Очистить кэш?",
+  "cacheWillBeDeleted": "Все сохраненные данные будут удалены. Это действие нельзя отменить.",
+  "clear": "Очистить",
+  "cacheCleared": "Кэш успешно очищен",
+  "cacheError": "Ошибка при очистке кэша: {error}",
+  "confirmLogout": "Вы действительно хотите выйти?",
+  "result": "Результат: {result}",
+  "selected": "Выбрано: {selected}",
+  "cbrRates": "Курсы валют ЦБ РФ",
+  "actualRates": "Актуальные курсы валют и финансовые новости",
+  "loginToApp": "Войти в приложение",
+  "continueWithoutLogin": "Продолжить без входа",
+  "save": "Сохранить",
+  "name": "Имя",
+  "email": "Email",
+  "id": "ID",
+  "appTheme": "Тема приложения",
+  "guest": "Гость",
+  "exchangeRates": "Курсы валют",
+  "currencies": "Валюты",
+  "currenciesTab": "Валюты",
+  "newsTab": "Новости",
+  "portfolio": "Портфель",
+  "portfolioTab": "Портфель",
+  "analytics": "Аналитика",
+  "analyticsTab": "Аналитика",
+  "profileUpdated": "Профиль обновлен: {userName}",
+  "dateFormat": "dd.MM.yyyy",
+  "timeFormat": "HH:mm",
+  "dateTimeFormat": "dd.MM.yyyy HH:mm",
+  "newsDateTimeFormat": "E HH:mm dd.MM.yy",
+  "appName": "Курсы валют ЦБ РФ",
+  "appThemeTitle": "Тема приложения",
+  "lightTheme": "Светлая",
+  "darkTheme": "Тёмная",
+  "systemTheme": "Системная",
+  "noInternet": "Нет подключения к интернету",
+  "usingSavedData": "Используются сохраненные данные",
+  "retry": "Повторить попытку",
+  "loadingFromLocal": "Загрузка из локального хранилища",
+  "loadingExchangeRates": "Загрузка курсов валют",
+  "searchByNameOrCode": "Поиск по названию или коду",
+  "usingLocalData": "Используются локальные данные",
+  "nothingFound": "Ничего не найдено",
+  "tryDifferentQuery": "Попробуйте изменить запрос",
+  "refreshData": "Обновить данные",
+  "errorOccurred": "Произошла ошибка",
+  "dbSaveError": "Ошибка при сохранении в БД: {error}",
+  "nominal": "Номинал",
+  "nominalCount": "Номинал: {value}",
+  "rubleSymbol": "₽",
+  "increase": "рост",
+  "decrease": "падение",
+  "unchanged": "без изменений",
+  "changeSymbol": "{change}",
+  "forNominal": "за {nominal} {units}",
+  "rateChange": "Изменение курса",
+  "currentRate": "Текущий курс",
+  "previousRate": "Предыдущий курс",
+  "change": "Изменение",
+  "changePercent": "Изменение в %",
+  "information": "Информация",
+  "currencyCode": "Код валюты",
+  "analyticsReports": "Аналитические отчеты",
+  "analyticsDescription": "В этом разделе представлены графики и аналитика\nпо курсам валют и вашим инвестициям",
+  "analyticsTrends": "Тренды",
+  "analyticsTrendsDescription": "Анализ трендов",
+  "analyticsForecasts": "Прогнозы",
+  "analyticsForecastsDescription": "Прогнозы курсов",
+  "analyticsReportsDescription": "Детальные отчеты",
+  "analyticsComparison": "Сравнение",
+  "analyticsComparisonDescription": "Сравнение валют",
+  "analyticsWeeklyStats": "Статистика за неделю",
+  "analyticsTopGainer": "Самый рост",
+  "analyticsTopGainerValue": "USD +2.1%",
+  "analyticsTopLoser": "Самый спад",
+  "analyticsTopLoserValue": "EUR -1.3%",
+  "analyticsVolatility": "Волатильность",
+  "analyticsVolatilityValue": "Средняя",
+  "analyticsSaveButton": "Сохранить и выйти",
+  "analyticsSaveMessage": "Анализ сохранен",
+  "portfolioTitle": "Ваш портфель валют",
+  "portfolioDescription": "В этом разделе будет отображаться информация\nо ваших валютных активах и инвестициях",
+  "portfolioBackButton": "Вернуться назад",
+  "portfolioViewedMessage": "Портфель просмотрен",
+  "portfolioMonthlyReturn": "Доходность за месяц:",
+  "portfolioMonthlyReturnValue": "+5.2%",
+  "portfolioTotalValue": "Общая стоимость:",
+  "portfolioTotalValueAmount": "125 430 ₽",
+  "symbol": "Символ",
+  "unit": "единица",
+  "unitsFew": "единицы",
+  "unitsMany": "единиц",
+  "units": "{count, plural, one{# единица} few{# единицы} many{# единиц} other{# единиц}}",
+  "unitsWithCount": "{count} {count, plural, one{единица} few{единицы} many{единиц} other{единиц}}",
+  "nominalWithUnits": "{count, plural, one{# единица} few{# единицы} many{# единиц} other{# единиц}}",
+  "currencyUnits": "{count, plural, one{# единица} few{# единицы} many{# единиц} other{# единиц}} {currency}",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  "@pageNotExist": {
+    "placeholders": {
+      "pageName": {}
+    }
+  },
+  "@themeSelected": {
+    "placeholders": {
+      "theme": {}
+    }
+  },
+  "@languageSelected": {
+    "placeholders": {
+      "language": {}
+    }
+  },
+  "@cacheError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@result": {
+    "placeholders": {
+      "result": {}
+    }
+  },
+  "@selected": {
+    "placeholders": {
+      "selected": {}
+    }
+  },
+  "@profileUpdated": {
+    "placeholders": {
+      "userName": {}
+    }
+  },
+  "@dbSaveError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@nominalCount": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "@changeSymbol": {
+    "placeholders": {
+      "change": {}
+    }
+  },
+  "@forNominal": {
+    "placeholders": {
+      "nominal": {},
+      "units": {}
+    }
+  },
+  "@units": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Plural form for units"
+  },
+  "@unitsWithCount": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Count with units"
+  },
+  "@nominalWithUnits": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Nominal value with plural units"
+  },
+  "@currencyUnits": {
+    "placeholders": {
+      "count": {},
+      "currency": {}
+    },
+    "description": "Currency units with count"
+  }
+}
