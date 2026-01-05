@@ -71,7 +71,10 @@ class _AppState extends State<App> {
       future: _initFuture,
       builder: (context, snapshot) {
         if (snapshot.connectionState != ConnectionState.done) {
-          return const SplashPage();
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: const SplashPage(),
+          );
         }
 
         return MultiProvider(
